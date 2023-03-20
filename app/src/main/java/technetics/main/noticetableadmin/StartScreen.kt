@@ -19,5 +19,9 @@ class StartScreen : AppCompatActivity() {
             val intentTwo = Intent(this,NoticeTwo::class.java)
             startActivity(intentTwo)
         }
+        findViewById<CardView>(R.id.BaseHeadline).setOnClickListener {
+            val intentTwo = Intent(this,BaseHeadline::class.java)
+            startActivity(intentTwo)
+        }
     }
 }
